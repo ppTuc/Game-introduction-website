@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+ul {
+    display: block;
+    list-style-type: none;
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 15px;
+}
+li {
+    display: inline-block;
+    padding: 10px 5px 10px 4px;
+}
+li a {
+    text-decoration: none;
+    color: #FFC300;
+    font-family: 'David Libre', serif;
+    font-size: 10px;
+}
+#Homepage {
+    color: #FFC300;
+    font-size: 40px;
+    font-family: 'David Libre', serif;
+}
+#myVideo {
+  position: fixed;
+  background-color: #D1D1D1;
+  min-width: 100%;
+  min-height: 100%;
+  top: 0px;
+  left: 0px;
+}
+video {
+    visibility: hidden;
+}
+
+#footer {
+    font-family: 'David Libre', serif;
+    font-size: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    position: relative;
+    top: 300px;
+    left: 25px;
+}
+div > a{
+    padding: 6px;
+    text-decoration: none;
+    font-family: 'David Libre', serif;
+    color: #302AF6;
+}
+@media only screen and (min-width: 992px){
+     /*for Laptop: */
+video {
+    visibility: visible;
+}
+ul {
+    display: block;
+    list-style-type: none;
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 5px;
+}
+li {
+    display: inline-block;
+    padding: 20px;
+}
+li a {
+    text-decoration: none;
+    color: #FFC300;
+    font-family: 'David Libre', serif;
+    font-size: 25px;
+}
+#Homepage {
+    color: #FFC300;
+    font-size: 45px;
+    font-family: 'David Libre', serif;
+}
+#footer {
+    font-family: 'David Libre', serif;
+    font-size: 40px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    position: relative;
+    top: 600px;
+    left:300px;
+}
+div > a{
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'David Libre', serif;
+    color: #FFC300;
+    font-size: 30px;
+}
+}
+@media only screen and (max-width: 991px) and (min-width:768px){
+    /*for table: */
+video {
+    visibility: hidden;
+}
+.banner {
+    background-image: url("https://wallpapercave.com/wp/wp2063794.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #D1D1D1;
+    box-sizing: border-box;
+    position: relative;
+    height: 500px;
+    width: 100%;
+    border: none;
+}
+#footer {
+    font-family: 'David Libre', serif;
+    font-size: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    position: relative;
+    top: 350px;
+    left:200px;
+}
+div > a{
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'David Libre', serif;
+    color: #302AF6
+}
+}
+@media only screen and (max-width:767px){
+    /*for mobile: */
+.banner {
+    background-image: url("https://wallpapercave.com/wp/wp2063768.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+    height: 500px;
+    width: 100%;
+    border: none;
+}
+}

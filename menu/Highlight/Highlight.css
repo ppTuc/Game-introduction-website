@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+ul {
+    display: block;
+    list-style-type: none;
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 35px;
+}
+li {
+    display: inline-block;
+    padding: 20px;
+}
+li a {
+    text-decoration: none;
+    color: #FFC300;
+    font-family: 'David Libre', serif;
+    font-size: 25px;
+}
+h1 {
+  display: block;
+  padding: 20px 0px 15px 30px;
+  font-size: 30px;
+  color: red;
+}
+h2 {
+  font-size: 25px;
+  text-align: center;
+  color: blue;
+}
+#Homepage {
+    color: #FFC300;
+    font-size: 35px;
+    font-family: 'David Libre', serif;
+}
+.banner {
+    background-image: url("https://www.gamemonday.com/wp-content/uploads/2018/08/Summoners-War-3182018-1-1024x605.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+    height: 800px;
+    width: 100%;
+    border: none;
+}
+footer {
+    font-family: 'David Libre', serif;
+    font-size: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    position: relative;
+    left: 40px;
+    color: blue;
+}
+footer a {
+  text-decoration: none;
+  padding: 2px;
+}
+@media only screen and (min-width: 992px){
+  /*for laptop: */
+  .col-L {
+    width: 33%;
+    float: left;
+    padding: 10px;
+  }
+footer {
+    font-family: 'David Libre', serif;
+    font-size: 35px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    position: relative;
+    left:350px;
+    color: blue;
+    top: 30px;
+    padding-bottom: 20px;
+}
+footer a {
+  text-decoration: none;
+  padding: 20px;
+}
+.row {
+  padding: 10px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+}
+@media only screen and (min-width:426px) and (max-width:991px){
+  /*for table: */
+  .col-T {
+    width: 50%;
+    float: left;
+    padding: 10px;
+  }
+  footer {
+    font-family: 'David Libre', serif;
+    font-size: 25px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    position: relative;
+    left:50px;
+    color: blue;
+    top: 20px;
+    padding-bottom: 20px;
+}
+footer a {
+  text-decoration: none;
+  padding: 20px;
+}
+}

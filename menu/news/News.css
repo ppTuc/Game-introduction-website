@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+ul {
+    display: block;
+    list-style-type: none;
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 35px;
+}
+li {
+    display: inline-block;
+    padding: 20px;
+}
+li a {
+    text-decoration: none;
+    color: #FFC300;
+    font-family: 'David Libre', serif;
+    font-size: 25px;
+}
+#Homepage {
+    color: #FFC300;
+    font-size: 35px;
+    font-family: 'David Libre', serif;
+}
+.banner {
+    background-image: url("https://www.gamemonday.com/wp-content/uploads/2018/08/Summoners-War-3182018-1-1024x605.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+    height: 800px;
+    width: 100%;
+    border: none;
+}
+.list {
+  box-sizing: border-box;
+  padding-left:  30px;
+}
+h1 {
+  font-size: 45px;
+  color: black;
+  padding: 10px 0px 0px 0px;
+}
+h2 a {
+  font-size: 28px;
+  color: blue;
+  padding: 10px 0px 0px 30px;
+  text-decoration: none;
+}
+h1 a {
+  text-decoration: none;
+}
+}
+img {
+  box-sizing: border-box;
+  display: block;
+}
+.edit-p {
+  text-align: justify;
+  font-size: 25px;
+}
+#row {
+  display: inline-block;
+  box-sizing: border-box;
+}
+#Number {
+  display: inline-block;
+  box-sizing: border-box;
+  padding-left: 125px;
+  padding-bottom: 30px;
+}
+footer {
+    font-family: 'David Libre', serif;
+    font-size: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    position: relative;
+    left: 40px;
+    color: blue;
+}
+footer a {
+  text-decoration: none;
+  padding: 2px;
+}
+@media only screen and (min-width: 992px){
+  /*for laptop: */
+  .col-L {
+    width: 33%;
+    float: left;
+    padding: 10px;
+  }
+
+#Number {
+  display: inline-block;
+  box-sizing: border-box;
+  padding-left:750px;
+  padding-bottom: 30px;
+}
+footer {
+    font-family: 'David Libre', serif;
+    font-size: 25px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    position: relative;
+    left:450px;
+    color: blue;
+}
+footer a {
+  text-decoration: none;
+  padding: 20px;
+}
+}
+@media only screen and (min-width:426px) and (max-width:991px){
+  /*for table: */
+  .col-T {
+    width: 50%;
+    float: left;
+    padding: 10px;
+ }
+ #Number {
+  display: inline-block;
+  box-sizing: border-box;
+  padding-left: 350px;
+  padding-bottom: 30px;
+}
+footer {
+    font-family: 'David Libre', serif;
+    font-size: 25px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    position: relative;
+    left:50px;
+    color: blue;
+}
+footer a {
+  text-decoration: none;
+  padding: 20px;
+}
+}
